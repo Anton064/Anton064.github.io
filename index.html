@@ -43,22 +43,20 @@
                 </label>
                 <input id="clearBtn" type="button" value="clear" title="clear screen" />
             </div>
-            <textarea id="messageInput" placeHolder="enter to send"></textarea>
+            <textarea id="messageInput" placeHolder="Написать сообщение..."></textarea>
             <input id="sendBtn" type="button" value="Отправить">
             <div id="emojiWrapper">
             </div>
         </div>
     </div>
     <div id="loginWrapper">
-        <p id="info">connecting to server...</p>
+        <p id="info">Подключение к серверу...</p>
         <div id="nickWrapper">
             <input type="text" placeHolder="nickname" id="nicknameInput" />
             <input type="button" value="OK" id="loginBtn" />
         </div>
     </div>
-    <footer>
-        <small>view on <a href="https://github.com/Wayou/HiChat">GitHub</a> | <a href="mailto:liuwayong@gmail.com">contact me</a></small>
-    </footer>
+    <script src="server.js"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="hichat.js"></script>
     <script>
