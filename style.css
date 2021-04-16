@@ -6,7 +6,6 @@ body{
     background-color: black;
 }
 .command {
-    text-align: center;
     margin: 10px auto;
     font: normal 100% "Comfortaa", sans-serif;
     color: darkred;
