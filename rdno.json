@@ -1,6 +1,15 @@
 {
-    "title": "RDNO",
-    "version": "1.0.0",
-    "update": "16.04.2021",
-    "telegram_id": ""
+  "name": "RDNO",
+  "version": "1.0.0",
+  "main": "js_bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "anton064.github.io",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "description": ""
 }
